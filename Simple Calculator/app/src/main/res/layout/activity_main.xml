@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="lecture2.ithub.com.alertdialog.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Result"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="#9e6e6e"/>
+
+    <EditText
+        android:id="@+id/editTextValue1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        android:hint="Enter Value 1" />
+
+    <EditText
+        android:id="@+id/editTextValue2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        android:hint="Enter Value 2" />
+
+    <Button
+        android:id="@+id/buttonPlus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:onClick="onClickPlus"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/buttonMinus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="-" />
+
+
+
+</LinearLayout>
