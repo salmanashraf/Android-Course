@@ -1,0 +1,4 @@
+#Sat Nov 04 14:07:49 PKT 2017
+base.0=H\:\\Github Data\\UICheckBox\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=H\:\\Github Data\\UICheckBox\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
